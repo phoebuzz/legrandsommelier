@@ -1,0 +1,24 @@
+/*
+Theme Name: Le Grand Sommelier
+Theme URI : http://www.phoebuzzdesign.com
+Description : Blog Sommelier:
+Version : 1
+Author: Gabriel Gaudreau
+Author URI: www.phoebuzzdesign.com
+*/
+
+@import url('css/bootstrap.min.css');
+
+.panel h3 {
+	margin-top: 5px;
+}
+.navbar-fixed-top {
+top: 0;
+border-width: 0 0 1px;
+}
+.carousel {
+margin-bottom: 50px;
+}
+.jumbotron {
+	background-color: rgba(0, 0, 0, 0.6);
+}
