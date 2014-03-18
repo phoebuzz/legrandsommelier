@@ -26,21 +26,7 @@
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li>
+                <?php wp_nav_menu( array('menu' => 'Menu Prini' )); ?>
               </ul>
             </div>
           </div>
@@ -48,6 +34,18 @@
 
       </div>
     </div>
+           	<header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                  <a href ="<?= SITE_URL; ?>"><img src="<?= MEDIA_IMG_PATH; ?>/logo.png"></a>
+                </div>
+                <nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
+                    <ul class="nav navbar-nav">
+                        <?php wp_nav_menu(array('theme_location' => 'main-menu', 'items_wrap' => '%3$s')); ?>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 	<!-- <body>
 		
 		<div class = "navbar navbar-inverse navbar-fixed-top">

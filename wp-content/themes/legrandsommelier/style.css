@@ -22,3 +22,26 @@ margin-bottom: 50px;
 .jumbotron {
 	background-color: rgba(0, 0, 0, 0.6);
 }
+.navbar-inverse {
+background-color: #FFFFFF;
+border-color: #080808;
+}
+.navbar-nav>li {
+float: left;
+}
+header .nav {
+list-style: none;
+}
+.navbar {
+	border-bottom: 3px solid #8da1bf;
+	max-height: 68px;
+}
+.nav a {
+	text-transform: uppercase;
+	font: 13px 'Open Sans', Verdana, Helvetica, sans-serif;
+	font-weight: bold; 
+}
+.nav>li>a:hover, .nav>li>a:focus {
+color: #ffffff;
+background-color: #8da1bf;
+}
